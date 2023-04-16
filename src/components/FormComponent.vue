@@ -1,5 +1,4 @@
 <script>
-import "@formkit/themes/genesis";
 
 export default {
   name: "FormComponent",
@@ -37,7 +36,7 @@ export default {
 
 <template>
   <div class="container-fluid p-4 mt-4 me-4">
-    <h1 class="text-primary mt-4">Registeration Form <i class="bi bi-pencil-square"></i></h1>
+    <h1 class="text-primary mt-4">Registration Form <i class="bi bi-pencil-square"></i></h1>
     <div
       class="border border-1 border-grey p-3 mt-4 rounded"
       style="width: 25rem"
@@ -62,8 +61,7 @@ export default {
           name="lname"
           validation="required"
         />
-        <!-- Regex for an indian mobile number with +91 -->
-        <!-- validation="required|length:13|matches:/[\+91]?[6-9][0-9]{9}/" -->
+
         <FormKit
           type="number"
           label="Mobile"
@@ -133,3 +131,4 @@ export default {
     </div>
   </div>
 </template>
+

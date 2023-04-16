@@ -1,6 +1,7 @@
 import { createApp } from "vue";
 import App from "./App.vue";
 import { plugin, defaultConfig } from "@formkit/vue";
+// import { genesis } from '@formkit/themes';
 import router from "./routers";
 import store from './store'
 

@@ -35,7 +35,7 @@ export default {
                     </tr>
                     <tr class="table-primary">
                         <th scope="row">Mobile:</th>
-                        <td>+91-{{ user.mobile }}</td>
+                        <td>{{ user.mobile }}</td>
                         <!-- <td colspan="2">Larry the Bird</td> -->
                     </tr>
                     <tr>

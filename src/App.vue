@@ -2,6 +2,7 @@
 import "bootstrap/dist/css/bootstrap.min.css";
 import "../node_modules/bootstrap-icons/font/bootstrap-icons.css";
 import NavBar from "./components/NavBar.vue";
+import "@formkit/themes/genesis"
 
 export default {
   name: 'App',
